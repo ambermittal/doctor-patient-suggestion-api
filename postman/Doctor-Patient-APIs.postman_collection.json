@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "15745f3a-acdc-4603-84e3-bc344a125121",
+		"name": "Doctor-Patient-APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45005610",
+		"_collection_link": "https://ambermittal.postman.co/workspace/Amber-Mittal's-Workspace~2dceb917-270e-4f1a-803c-a9fed2640c3c/collection/45005610-15745f3a-acdc-4603-84e3-bc344a125121?action=share&source=collection_link&creator=45005610"
+	},
+	"item": [
+		{
+			"name": "API-Doctors",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "API-Patients",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "API-Suggestion",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
