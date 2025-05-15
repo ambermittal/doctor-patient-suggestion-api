@@ -198,16 +198,20 @@ You can import it into Postman and test all endpoints easily.
 
 ## 📸 API Screenshots
 
-API-Doctors
+**API-Doctors**:
+
 ![Add Doctor](screenshots/add-doctor.png)
 
-API-Patients
+**API-Patients**:
+
 ![Add Patient](screenshots/add-patient.png)
 
-API-Suggestion
+**API-Suggestion**:
+
 ![Suggest Doctor](screenshots/suggest-doctor.png)
 
-Swagger APIs
+**Swagger APIs**:
+
 ![Swagger](screenshots/swagger-ui.png)
 
 ---
