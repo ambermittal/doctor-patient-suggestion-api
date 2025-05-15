@@ -39,7 +39,7 @@ A Spring Boot 3 based REST API that allows doctors to register, patients to be a
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/doctor-patient-suggestion.git
+git clone https://github.com/ambermittal/doctor-patient-suggestion-api
 cd doctor-patient-suggestion
 
 # 2. Run using Maven
