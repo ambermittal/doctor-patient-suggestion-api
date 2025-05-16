@@ -10,24 +10,86 @@
 		{
 			"name": "API-Doctors",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Dr. S.k Sharma\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"drsharma@gmail.com\",\r\n  \"phoneNumber\": \"9876543210\",\r\n  \"speciality\": \"ORTHOPAEDIC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/doctors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"doctors"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "API-Patients",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"K.John\",\r\n    \"city\": \"Delhi\",\r\n    \"email\": \"john@gmail.com\",\r\n    \"phoneNumber\": \"9876543212\",\r\n    \"symptom\": \"ARTHRITIS\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/patients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "API-Suggestion",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/suggest-doctor/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"suggest-doctor",
+						"1"
+					]
+				}
 			},
 			"response": []
 		}
